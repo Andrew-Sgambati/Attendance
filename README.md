@@ -10,6 +10,7 @@ A simple Streamlit app template for you to modify!
 
    ```
    $ pip install -r requirements.txt
+   $ pip install pandas streamlit slack_sdk python-dotenv
    ```
 
 2. Run the app
