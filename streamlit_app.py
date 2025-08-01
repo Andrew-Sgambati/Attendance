@@ -38,8 +38,8 @@ def get_first_last_name(full_name):
     return full_name
 
 start_time_path = os.path.join("Input", "StartTime.csv")
-start_time_uploaded = st.file_uploader("Upload StartTime CSV (optional)", type="csv", key="start_time_upload")
-uploaded = st.file_uploader("Upload Activity CSV", type="csv", key="main_upload")
+start_time_uploaded = st.file_uploader("Upload StartTime CSV (optional: Agent_Status_Logs)", type="csv", key="start_time_upload")
+uploaded = st.file_uploader("Upload Activity CSV (Agent_Status_Statistics)", type="csv", key="main_upload")
 
 start_time_text = ""
 start_times = {}
